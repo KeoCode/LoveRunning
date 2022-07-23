@@ -62,7 +62,7 @@ h1, h2 {
 
 }
 
-#cover-text, cover-text h2 {
+#cover-text, #cover-text h2 {
     color: #fff;
 }
 
@@ -155,7 +155,7 @@ hr {
     text-align: right;
 }
 
-.right-about-heading {
+.right-about-heading p {
     text-align: right;
 }
 
@@ -270,7 +270,7 @@ footer {
     }
 }
 
-@media screen and (max-wisth: 950px) {
+@media screen and (max-width: 950px) {
     #menu{
     clear: left;
     float: left;
@@ -279,4 +279,28 @@ footer {
     line-height: 25px;
     }
 
+
+        #cover-text {
+            left: 0;
+        }
+
+        #club-ethos {
+            width: 90%;
+            height: 1200px;
+            margin: 0 auto;
+        }
+
+        .left-about-heading, .right-about-heading {
+            width: inherit;
+        }
+
+        .left-about-heading h2, .right-about-heading h2 {
+            width: 100%;
+            text-align: center;
+        }
+
+        left-about-heading p, .right-about-heading p {
+            text-align: center;
+            padding: 0 20px;
+        }
 }
